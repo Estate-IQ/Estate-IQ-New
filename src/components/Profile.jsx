@@ -14,9 +14,9 @@ const Profile = () => {
         <GNavbar estate="active_tab" />
         <Mobile />
         <section className="selected_tab">
-          {/* ============
+          {/* ========
         WITH SEARCHBOX
-        =============== */}
+        =========== */}
           <div className="navbar_container">
             <div className="dashboard_container input_avatar">
               <input
