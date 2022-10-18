@@ -2,10 +2,6 @@
 
 We would love to be recognized for being innovative in how we provide solutions that enhance living conditions and help communities attain higher levels of efficiencies in estate management. We value collaboration, ingenuity, and hospitality.
 
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
