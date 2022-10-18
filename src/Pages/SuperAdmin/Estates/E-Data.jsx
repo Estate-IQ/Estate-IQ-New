@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import JSON from "./Data.json";
 import ReactDOM from "react-dom";
-import Pagination from "https://cdn.skypack.dev/rc-pagination@3.1.15";
+// import Pagination from "";
 
 const App = () => {
   const datatableUsers = JSON;
