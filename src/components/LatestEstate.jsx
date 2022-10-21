@@ -1,6 +1,7 @@
 import React from "react";
 import Chart from "./chart/Chart";
-import Images from "../assets/images/Images";
+// import Images from "../assets/images/Images";
+import { Images } from "../assets/images/Images";
 import { userData } from "../assets/json/Dummydata";
 import { Link } from "react-router-dom";
 import { ResponsiveContainer } from "recharts";

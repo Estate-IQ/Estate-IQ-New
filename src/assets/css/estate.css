@@ -3474,6 +3474,10 @@ footer ul.breadcrumb li a:hover {
   width: 270px;
 }
 
+.input_avatar h6 {
+  opacity: 0;
+}
+
 .search_profile {
   margin: 25px 20px;
 }
@@ -3615,6 +3619,7 @@ footer ul.breadcrumb li a:hover {
 }
 
 .location_before p {
+  color: var(--Gunmetal);
   margin-left: 20px;
   height: 83px;
   overflow: hidden;
@@ -4032,6 +4037,289 @@ OVERVIEW
   margin-left: 10px;
 }
 
+.group_profile .Cap_estate_name .contact_info {
+  margin-top: 50px;
+}
+
+.group_profile .Cap_estate_name .contact_info h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 15px;
+  color: var(--Brand-color);
+}
+
+.group_profile .Cap_estate_name .contact_info h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #545454;
+  margin-bottom: 10px;
+}
+
+.group_profile .Cap_estate_name .contact_info p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.group_profile .Cap_estate_name .resident_data {
+  margin-top: 50px;
+}
+
+.group_profile .Cap_estate_name .resident_data .per {
+  margin-bottom: 30px;
+}
+
+.group_profile .Cap_estate_name .resident_data .per h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 15px;
+  color: var(--Brand-color);
+}
+
+.group_profile .Cap_estate_name .resident_data .per .active:before {
+  background: var(--LimeGreen);
+}
+
+.group_profile .Cap_estate_name .resident_data .per .in-active:before {
+  background: #ff0000;
+}
+
+.group_profile .Cap_estate_name .resident_data .per h3 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #545454;
+  margin-bottom: 10px;
+}
+
+.group_profile .Cap_estate_name .resident_data .per h3:before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.group_profile .Cap_estate_name .resident_data .per p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.group_profile .Cap_estate_name .group_profile_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.group_profile .Cap_estate_name .group_profile_header img {
+  width: 48px;
+  height: 48px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.group_profile .Cap_estate_name .group_profile_header .estate_name h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.group_profile .Cap_estate_name .group_profile_header .estate_name .estate_id {
+  margin-top: 0;
+}
+
+.group_profile .Cap_estate_name .group_profile_header .estate_name .estate_id::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: var(--Gunmetal);
+  border-radius: 50%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.group_profile .Cap_estate_name .group_profile_header .estate_name .activity_log {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 200px;
+  margin-top: 15px;
+}
+
+.group_profile .Cap_estate_name .group_profile_header .estate_name .activity_log a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--Brand-color);
+  margin-top: 0;
+}
+
+.group_profile .Cap_estate_name .group_profile_header .estate_name .activity_log a:hover {
+  text-decoration: underline;
+}
+
+.group_profile .Cap_estate_name .group_profile_header .estate_name .location_before {
+  max-width: 535px;
+  height: auto !important;
+  margin-top: 15px;
+}
+
+.group_profile .Cap_estate_name .group_profile_header .estate_name .packages_name {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.group_profile .Cap_estate_name .group_profile_header .estate_name .packages_name button {
+  background: #d6deff;
+  border-radius: 5px;
+  padding: 4px 8px;
+  margin: 0;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.group_profile .Cap_estate_name .group_profile_header .estate_name .packages_name h4 {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #ff0000;
+}
+
+.group_profile .admins_list {
+  background: var(--White);
+  border: 1px solid #c0c0c0;
+  border-radius: 5px;
+  margin-top: 40px;
+  padding: 15px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.group_profile .admins_list h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.06em;
+  margin-bottom: 15px;
+  color: var(--Brand-color);
+}
+
+.group_profile .admins_list .per_admin {
+  background: var(--White);
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  padding: 10px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.group_profile .admins_list .per_admin .name_pic {
+  width: 72%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.group_profile .admins_list .per_admin .name_pic p {
+  margin: 0;
+  line-height: 11px !important;
+}
+
+.group_profile .admins_list .per_admin .name_pic .ad_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.group_profile .admins_list .per_admin .name_pic .ad_name h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.group_profile .admins_list .per_admin .name_pic .ad_name p {
+  margin-top: 7px !important;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--Brand-color);
+}
+
+.group_profile .admins_list .per_admin .name_pic img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.call_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 85px;
+  width: 30%;
+}
+
+.call_text img {
+  width: 35px;
+  height: 35px;
+}
+
+.swal2-styled.swal2-confirm {
+  background: var(--Brand-color) !important;
+  max-width: 150px !important;
+}
+
+.control_dialog h1 {
+  color: var(--Brand-color);
+  font-size: 34px !important;
+}
+
+.swal2-title {
+  font-weight: 600 !important;
+  font-size: 25px !important;
+  line-height: 40px !important;
+}
+
 @media (max-width: 400px) {
   .latest_estate .new_estates {
     display: block;
@@ -4047,6 +4335,26 @@ OVERVIEW
 
 @media (max-width: 540px) {
   .acct_info .create_img {
+    display: none;
+  }
+  .call_text {
+    width: 10%;
+  }
+  .group_profile .admins_list .per_admin .name_pic {
+    width: 88%;
+  }
+  .group_profile .admins_list .per_admin .name_pic img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .group_profile .admins_list .per_admin .name_pic .ad_name h4 {
+    font-size: 17px;
+  }
+  .group_profile .admins_list .per_admin {
+    padding: 15px 10px;
+  }
+  .mail_none {
     display: none;
   }
   .dashboard_container {
@@ -4209,6 +4517,19 @@ OVERVIEW
 }
 
 @media (min-width: 540px) {
+  .group_profile .Cap_estate_name .resident_data {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .group_profile .Cap_estate_name .resident_data .per {
+    width: 50%;
+  }
   .download_filter {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4288,9 +4609,36 @@ OVERVIEW
   .fourcard_grid .grid-row {
     width: 23.5%;
   }
+  .group_profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1400px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .group_profile .Cap_estate_name {
+    width: 53%;
+  }
+  .group_profile .c_del {
+    width: 50%;
+  }
+  .group_profile .c_del button {
+    border: 2px solid crimson;
+    color: crimson;
+    padding: 8px 12px;
+  }
+  .group_profile .c_del button:hover {
+    background-color: crimson;
+    color: white;
+  }
+  .group_profile .admins_list {
+    margin-top: 0;
+  }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1400px) {
   .chartbox {
     display: -webkit-box;
     display: -ms-flexbox;

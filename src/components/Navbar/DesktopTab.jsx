@@ -50,7 +50,7 @@ const DesktopTab = (props) => {
             </div>
           </div>
         </Link>
-        <Link to="/superadmin-estate">
+        <Link to="/superadmin-task">
           <div id="option" className={props.message}>
             <div>
               <svg
@@ -71,7 +71,7 @@ const DesktopTab = (props) => {
             </div>
           </div>
         </Link>
-        <Link to="/superadmin-estate">
+        <Link to="/superadmin-tasks">
           <div id="option" className={props.task}>
             <div>
               <svg

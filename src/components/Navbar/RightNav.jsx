@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Images from "../../assets/images/Images";
+import { Images } from "../../assets/images/Images";
 import SVGs from "../../assets/svg/SVGs";
 
 const Ul = styled.ul`

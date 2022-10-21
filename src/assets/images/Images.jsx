@@ -1,4 +1,4 @@
-const Images = {
+export const Images = {
   logo: require("../images/estate_Logo.png"),
   img1: require("../images/img1.jpg"),
   img2: require("../images/img2.jpg"),
@@ -41,4 +41,3 @@ const Images = {
   Humility: require("../images/Humility.png"),
   Ownership: require("../images/Ownership.png"),
 };
-export default Images;

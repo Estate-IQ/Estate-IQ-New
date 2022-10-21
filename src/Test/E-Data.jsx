@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import JSON from "./Data.json";
+import JSON from "../Pages/SuperAdmin/Estates/Data.json";
 import ReactDOM from "react-dom";
 // import Pagination from "";
 
@@ -31,7 +31,7 @@ const App = () => {
     if (type === "prev") {
       return (
         <button>
-          <i className="fa fa-angle-double-left"></i>
+          <i className="fa fa-angle-left"></i>
         </button>
       );
     }

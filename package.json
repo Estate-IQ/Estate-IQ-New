@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Estate-IQ.github.io/Estate-IQ-New",
+  "homepage": "https://Estate-IQ.github.io/Estate-IQ-New",
   "name": "estateiq",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +20,7 @@
     "react-select-search": "^4.1.2",
     "recharts": "^2.1.14",
     "styled-components": "^5.3.6",
+    "sweetalert2": "^11.5.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

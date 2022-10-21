@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import JSON from "./Data.json";
-// import Pagination from "https://cdn.skypack.dev/rc-pagination@3.1.15";
-
+import Pagination from "https://cdn.skypack.dev/rc-pagination@3.1.15";
 import Modal from "./AddNew";
 import SVGs from "../../../assets/svg/SVGs";
 import Images from "../../../assets/images/Images";
 import GNavbar from "../../../components/Navbar/DesktopTab";
 import Mobile from "../../../components/Navbar/Navbar";
+import { Link } from "react-router-dom";
 // import TopNav from "../../../components/Navbar/TopNav";
 
 const Estate = () => {
@@ -150,20 +150,22 @@ const Estate = () => {
                     .map((data, index) => {
                       return (
                         <div className="per_estate" key={data.id}>
-                          <button className="outlined-btn">
-                            Deluxe Package
-                          </button>
-                          <div className="name_id">
-                            <h2>{data.estate_name}</h2>
-                            <p>{data.unique_id}</p>
-                          </div>
-                          <h3>{data.number} Residents</h3>
-                          <div className="location_before">
-                            <p>
-                              Plot 33, Abubakar Tafawa Balewa Way Central
-                              Business District, Cadastral Zone, Abuja,
-                            </p>
-                          </div>
+                          <Link to="/profile">
+                            <button className="outlined-btn">
+                              Deluxe Package
+                            </button>
+                            <div className="name_id">
+                              <h2>{data.estate_name}</h2>
+                              <p>{data.unique_id}</p>
+                            </div>
+                            <h3>{data.number} Residents</h3>
+                            <div className="location_before">
+                              <p>
+                                Plot 33, Abubakar Tafawa Balewa Way Central
+                                Business District, Cadastral Zone, Abuja,
+                              </p>
+                            </div>
+                          </Link>
                         </div>
                       );
                     })}
@@ -215,7 +217,7 @@ const Estate = () => {
           </div>
         </div>
         <Modal open={openModal} onClose={() => setOpenModal(false)} />
-        {/* <Pagination
+        <Pagination
           className="pagination-data"
           // showTotal={(total, range) => `${range[0]}-${range[1]} / ${total}`}
           onChange={PaginationChange}
@@ -225,7 +227,7 @@ const Estate = () => {
           showSizeChanger={false}
           itemRender={PrevNextArrow}
           onShowSizeChange={PerPageChange}
-        /> */}
+        />
       </section>
     </section>
   );

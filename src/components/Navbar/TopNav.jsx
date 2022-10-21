@@ -1,6 +1,6 @@
 import React from "react";
 import SVGs from "../../assets/svg/SVGs";
-import Images from "../../assets/images/Images";
+import { Images } from "../../assets/images/Images";
 
 const TopNav = () => {
   return (
