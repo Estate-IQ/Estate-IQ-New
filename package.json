@@ -2,7 +2,7 @@
   "homepage": "https://Estate-IQ.github.io/Estate-IQ-New",
   "name": "estateiq",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
