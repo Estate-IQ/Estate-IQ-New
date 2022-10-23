@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import SVGs from "../../assets/svg/SVGs";
+import { SVGs } from "../../assets/svg/SVGs";
 
 const DesktopTab = (props) => {
   return (

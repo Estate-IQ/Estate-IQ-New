@@ -1976,7 +1976,42 @@ input:valid {
   border-color: #eceff5;
 }
 // DYNAMIC - PAGINATION END POINT
+.main_drop {
+  max-width: 120px;
+  font-family: var(--Montserat);
+  width: 100%;
+  position: relative;
+  .main_drop_btn {
+    padding: 10px 12px;
+    background-color: var(--White);
 
+    border: 1px solid var(--Magnolia);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .selections {
+    border-radius: 6px;
+    background-color: #fff;
+    position: absolute;
+    top: 52px;
+    border: 1px solid var(--Magnolia);
+    width: 100%;
+    .selected {
+      padding: 10px 12px;
+      cursor: pointer;
+      transition: all 0.1s;
+      &:hover {
+        background-color: var(--Magnolia);
+      }
+    }
+  }
+}
 @media (max-width: 768px) {
   .navlinks {
     flex-direction: column;

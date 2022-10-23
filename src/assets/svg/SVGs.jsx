@@ -1,4 +1,4 @@
-const SVGs = {
+export const SVGs = {
   brand_name: require("../svg/brand_name.svg").default,
   brand_logo: require("../svg/brand_logo.svg").default,
   email: require("../svg/location.svg").default,
@@ -49,4 +49,3 @@ const SVGs = {
   workstation: require("../svg/workstation.svg").default,
   team: require("../svg/team.svg").default,
 };
-export default SVGs;

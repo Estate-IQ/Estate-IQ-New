@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Modal from "./Advert";
+import Modal from "./Advert";
 
 const SelectDrop = ({ selected, setSelected }) => {
   const [openModal, setOpenModal] = useState(false);
